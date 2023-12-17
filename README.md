@@ -20,7 +20,21 @@ Browse the curated list of the top-rated movies on IMDb using the `/top250` comm
 
 In the code repository, you will find the following important files:
 
-- **Top250.json:** This file is utilized for creating the `/top250` command section. It contains information about the IMDb Top 250 movies, including their titles, years, and IMDb IDs. The bot reads this file to provide users with a curated list of top-rated movies.
+1. **main.py:** The main script that initializes the MovieBot Telegram bot and manages the bot's entry point.
+
+2. **Database.py:** Handles interactions with the database, storing and retrieving relevant information.It works with .pickle format files.
+
+3. **Functions.py:** Contains various functions and utility methods used across different modules.
+
+4. **Keyboards.py:** Defines custom keyboards and interactive elements used in the Telegram bot.
+
+5. **Show.py:** Implements the logic for displaying movie details and information.
+
+6. **Strings.py:** Stores string constants and messages used throughout the bot.
+
+7. **User.py:** Defines the `User` object, managing user-related functionalities and data storage.
+
+8. **Top250.json:** This file is utilized for creating the `/top250` command section. It contains information about the IMDb Top 250 movies, including their titles, years, and IMDb IDs. The bot reads this file to provide users with a curated list of top-rated movies.
 
 Feel free to explore these files if you are interested in the internal workings of the Bot application.
 
