@@ -22,7 +22,7 @@ In the code repository, you will find the following important files:
 
 - **Top250.json:** This file is utilized for creating the `/top250` command section. It contains information about the IMDb Top 250 movies, including their titles, years, and IMDb IDs. The bot reads this file to provide users with a curated list of top-rated movies.
 
-Feel free to explore these files if you are interested in the internal workings of the MovieBot application.
+Feel free to explore these files if you are interested in the internal workings of the Bot application.
 
 ## Installation
 
